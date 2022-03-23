@@ -1,0 +1,17 @@
+.home {
+    margin-top: 35px;
+}
+
+
+
+.home-title {
+    font-size: 48px;
+    line-height: 55px;
+    margin-bottom: 45px;
+}
+
+.home-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
