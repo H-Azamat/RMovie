@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RMovie/static/css/main.49d64490.css",
+    "main.js": "/RMovie/static/js/main.914d7a9f.js",
+    "static/media/apiLogo.svg": "/RMovie/static/media/apiLogo.e7df685dc839e3d34bb031ae8776203d.svg",
+    "static/media/logo.svg": "/RMovie/static/media/logo.578459412f1656844b8b045cff0d97b1.svg",
+    "index.html": "/RMovie/index.html",
+    "main.49d64490.css.map": "/RMovie/static/css/main.49d64490.css.map",
+    "main.914d7a9f.js.map": "/RMovie/static/js/main.914d7a9f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.49d64490.css",
+    "static/js/main.914d7a9f.js"
+  ]
+}
