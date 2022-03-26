@@ -49,8 +49,11 @@
 }
 
 .home-item-name {
+    font-family: "Arial", sans-serif;
     text-align: center;
     font-size: 28px;
+    color: #fff;
+    text-decoration: none;
 }
 
 .home-item-name:hover {

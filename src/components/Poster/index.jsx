@@ -1,4 +1,5 @@
 import React from 'react'
+import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 
@@ -14,9 +15,9 @@ const Poster = ({movie, favorites, addToFavorites}) => {
                 <FontAwesomeIcon fontSize={45} icon={faBookmark}
                     className={`home-item-favorites ${favorites.includes(movie.id) ? 'active' : ''} `} onClick={() => addToFavorites(movie.id)} />
 
-                <h1 className="home-item-name">
+                <NavLink className="home-item-name" to={`movie/${movie.id}`}>
                     {movie.title}
-                </h1>
+                </NavLink>
 
             </div>
 

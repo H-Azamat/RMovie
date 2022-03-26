@@ -1,5 +1,6 @@
 import { faBookmark } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { NavLink } from 'react-router-dom'
 import {apiLogo, logo} from '../../img'
 
 import './navbar.css'
@@ -12,7 +13,7 @@ const Navbar = () => {
 
         <div className="navbar__left">
 
-          <img className="navbar-logo" alt="RMovie" src={logo} />
+          <NavLink to=""><img className="navbar-logo" alt="RMovie" src={logo} /></NavLink>
 
           <input className="navbar-search" type="search" name="search" placeholder="Поиск фильмов и сериалов" />
           

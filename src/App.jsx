@@ -1,6 +1,6 @@
 import { Route, Switch } from 'react-router-dom';
 import {Navbar} from './components'
-import {HomeContainer} from './pages'
+import {HomeContainer, MovieContainer} from './pages'
 
 function App() {
   return (
@@ -11,6 +11,9 @@ function App() {
       <Switch>
         <Route path={'/p/:page'} >
           <HomeContainer />
+        </Route>
+        <Route path={'/movie/:id'} >
+          <MovieContainer />
         </Route>
         <Route path={'/'} exact>
           <HomeContainer />
